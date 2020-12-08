@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 44,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -17,7 +17,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "0009020_ffffffff"
+    "visible_layers": "0001000_80000001"
   },
   "meta": {
     "filename": "06-MiniBLE.kicad_prl",
