@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 1
@@ -68,7 +74,6 @@
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
-        "keepout": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
         "microvia_drill_too_small": "error",
@@ -89,7 +94,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "via_hole_larger_than_pad": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -99,6 +103,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.0,
+        "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -110,10 +115,21 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.35,
+        0.5,
+        0.75
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -373,7 +389,7 @@
   },
   "sheets": [
     [
-      "c26281d9-8abd-4441-9ddd-a055764d275c",
+      "11a9dfb6-a1e0-47a9-b1a5-773dfc6140b5",
       ""
     ]
   ],
